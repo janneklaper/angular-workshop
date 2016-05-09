@@ -1,0 +1,1 @@
+angular.module("templates",[]).run(["$templateCache",function(e){e.put("views/Home/Home.html",'<div class="container-fluid">\r\n  <p>Welcome to the AngularJS workshop</p>\r\n</div>'),e.put("views/WhiskyList/WhiskyList.html",'<div>\r\n	<table class="table">\r\n\r\n	</table>\r\n</div>')}]);
