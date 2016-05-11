@@ -1,0 +1,31 @@
+{
+	"whiskies": [
+		{"name": "Ardbeg", "age": 10},
+		{"name": "Auchentoshan", "age": 10},
+		{"name": "Aultmore", "age": 10},
+		{"name": "Balvenie", "age": 10},
+		{"name": "Bowmore", "age": 12},
+		{"name": "Bowmore", "age": 15},
+		{"name": "Bunnahabhain", "age": 8},
+		{"name": "Bunnahabhain", "age": 12},
+		{"name": "Caol Ila", "age": 12},
+		{"name": "Cardhu", "age": 12},
+		{"name": "Finlaggan", "age": 10},
+		{"name": "Glenfiddich", "age": 15},
+		{"name": "Glenfiddich", "age": 18},
+		{"name": "Glenlivet", "age": 12},
+		{"name": "Glenmorangie Original", "age": 10},
+		{"name": "Glenmorangie Lasanta", "age": 12},
+		{"name": "Glengoyne", "age": 10},
+		{"name": "Highland Park", "age": 12},
+		{"name": "Jura", "age": 10},
+		{"name": "Lagavulin", "age": 16},
+		{"name": "Laphroaig", "age": 10},
+		{"name": "Macallan", "age": 10},
+		{"name": "Macallan", "age": 12},
+		{"name": "Old Pulteney", "age": 12},
+		{"name": "Singleton of Dufftown", "age": 12},
+		{"name": "Speyburn", "age": 10},
+		{"name": "Talisker", "age": 10}
+	]
+}
