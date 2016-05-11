@@ -1,3 +1,5 @@
-angular.module('WhiskyListCtrl', []).controller('WhiskyListController', ['$scope', function($scope) {
+angular.module('WhiskyListCtrl', []).controller('WhiskyListController', [
+  '$scope', 'Whisky', function($scope, Whisky) {
 
-}]);
+  }
+]);

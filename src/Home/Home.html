@@ -1,3 +1,114 @@
-<div class="container-fluid">
-  <p>Welcome to the AngularJS workshop</p>
+<div class="container">
+  <div>
+    <h1 class="text-center">
+      Welcome to the AngularJS 1.x workshop
+    </h1>
+
+    <!-- Assignment 1 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Assignment 1: List the whiskies</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>
+            Find the file src/WhiskyList/WhiskyList.html and notice the table-element with ng-repeat
+          </li>
+          <li>
+            Discover the WhiskyListCtrl.js-file under the same folder and notice how it's tied
+            to the mentioned view in src/appRoutes.js
+          </li>
+          <li>
+            Notice the WhiskyService.js also in the same folder. This will
+            be the service that provides us with a JSON-file full of whisky
+          </li>
+          <li>
+            In WhiskyListCtrl, notice that the WhiskyService is already injected.
+            Call the WhiskyService, insert the whiskies into the scope and observe
+            as the whisky will start flowing into your screen when you refresh the page
+          </li>
+        </ul>
+        Related documentation:
+        <a href="https://docs.angularjs.org/api/ng/directive/ngRepeat">NgRepeat</a>
+      </div>
+    </div>
+
+    <!-- Assignment 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          Assignment 2: Filter the whiskies
+        </h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>
+            Find your way back to the WhiskyList.html and notice the commented
+            out input-element in the beginning of the file.
+          </li>
+          <li>
+            Familiarize yourself with the filter-documentation below and implement
+            a search-filter for the whisky list
+          </li>
+        </ul>
+        Related documentation:
+        <a href="https://docs.angularjs.org/api/ng/filter/filter">Filter</a>
+
+      </div>
+    </div>
+
+    <!-- Assignment 3 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          Assignment 3: A new view of whisky
+        </h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>
+            Navigate to src/WhiskyList/WhiskyListItemDetails and open the file
+            WhiskyListItemCtrl.js
+          </li>
+          <li>
+            Follow the instructions provided in the file and create a details
+            view which will be shown when a whisky is selected from the list
+          </li>
+        </ul>
+        Related documentation:
+        <a href="https://docs.angularjs.org/api/ngRoute">NgRoute</a>
+
+      </div>
+    </div>
+
+    <!-- Assignment 4 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">
+          Bonus assignment: Stop the copy paste
+        </h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>
+            Directives provide a clever way of reusing similar functionality
+            thoughout the application. This removes the need to copy similar
+            elements between views and makes the application more modular.
+          </li>
+          <li>
+            Implement a directive that replaces a single row in the whisky list.
+            You may utilize the template file located at src/WhiskyList/WhiskyListItemDirective.js
+          </li>
+          <li>
+            Observe that the directive is named 'listItem', but when you use it as
+            an element, the correct way to reference it is with 'list-item'
+          </li>
+        </ul>
+        Related documentation:
+        <a href="https://docs.angularjs.org/guide/directive">Directive</a>
+
+      </div>
+    </div>
+
+  </div>
 </div>

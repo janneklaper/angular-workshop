@@ -18,7 +18,7 @@ var BUILD_PATH = 'build';
 var BUILD_PATH_TEMP = 'build/temp';
 
 var config = {
-  
+
   assets: {
     appHtmlSrc: [
       SOURCE_PATH + '/*/*.html'
@@ -28,26 +28,26 @@ var config = {
     appSrc: [
       SOURCE_PATH + '/**/*.js'
     ],
-    
+
     // App style source
     appStyleSrc: [
       'bower_components/bootstrap-sass/assets/stylesheets/*.scss',
       SOURCE_PATH + '/**/*.scss'
     ],
-    
+
     // Dependencies
     libSrc: [
-      'bower_components/jquery/dist/jquery.min.js',
-      'bower_components/angular/angular.min.js',
-      'bower_components/angular-route/angular-route.min.js',
-      'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js'
+      'bower_components/jquery/dist/jquery.js',
+      'bower_components/angular/angular.js',
+      'bower_components/angular-route/angular-route.js',
+      'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js'
     ],
-    
+
     // Define lib styles here
     libStyleSrc: [
-        
+
     ],
-    
+
     // Define path for fonts
     fontSrc: [
       SOURCE_PATH + "/Fonts/*",
@@ -59,7 +59,7 @@ var config = {
     imageSrc: [
       SOURCE_PATH + "/images/*"
     ],
-      
+
     // Bundle files
     appScriptsBundleFileSrc: BUILD_PATH + '/js/app-bundle.min.js',
     libScriptsBundleFileSrc: BUILD_PATH + '/js/lib-bundle.min.js',

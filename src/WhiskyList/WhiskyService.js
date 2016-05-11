@@ -2,9 +2,9 @@ angular.module('WhiskyService', []).factory('Whisky', ['$http',
 	function($http) {
 		return {
             get: function (callback) {
-                $http.get('http://dippa-cdn.s3.eu-central-1.amazonaws.com/whiskies.json')
+                $http.get('content/whiskies.json')
                 .success(function (data, status) {
-                    callback(data, true);
+                    callback(data.whiskies, true);
                 })
                 .error(function (data, status) {
                     callback(data, false);
