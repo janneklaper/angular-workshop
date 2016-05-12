@@ -12,9 +12,9 @@ Run the following commands to get the application running
 
 ```
 npm install
-bower install
-gulp build
-node start server.js
+bower install (npm install -g bower, if not found)
+gulp build (npm install -g gulp, if not found)
+node server.js
 ```
 
 Copyright (c) 2016 [Eatech Oy](http://eatech.fi)
