@@ -21,7 +21,7 @@ var config = {
 
   assets: {
     appHtmlSrc: [
-      SOURCE_PATH + '/*/*.html'
+      SOURCE_PATH + '/**/*.html'
     ],
 
     // App app javascript source
