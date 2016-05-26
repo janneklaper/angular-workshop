@@ -4,6 +4,7 @@ angular.module('WhiskyApp', ['ngRoute', 'appRoutes',
   'MainCtrl',
   'HomeCtrl',
   'WhiskyListCtrl',
+  'WhiskyListItemCtrl',
 
   // Services
   'WhiskyService',

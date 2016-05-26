@@ -1,15 +1,14 @@
 <div class="container">
 
 	<!-- Related to assignment 2 -->
-	<!--
 	<div class="row">
 		<div class="col-md-4">
 			<label for="filterInput">Filter whiskies</label>
-			<input id="filterInput" class="form-control">
+			<input id="filterInput" class="form-control" ng-model="filterInput">
 		</div>
 	</div>
 
-	<hr>-->
+	<hr>
 
 	<!-- Related to assignment 1 -->
 	<table class="table table-bordered table-striped table-hover" ng-if="whiskies != null">
@@ -17,8 +16,8 @@
 			<th>Name</th>
 			<th>Age</th>
 		</thead>
-		<tbody ng-repeat="whisky in whiskies">
-			<td>{{whisky.name}}</td>
+		<tbody ng-repeat="whisky in whiskies | filter:filterInput">
+			<td><a href='/whiskylistitem'>{{whisky.name}}</a></td>
 			<td>{{whisky.age}}</td>
 		</tbody>
 	</table>
