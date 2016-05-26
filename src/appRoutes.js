@@ -13,6 +13,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider',
 				controller: 'WhiskyListController'
 			})
 
+			.when('/whiskylistitem', {
+				templateUrl: 'views/WhiskyList/WhiskyListItemDetails/WhiskyListItemDetails.html',
+				controller: 'WhiskyListItemController'
+			})
+
 			.otherwise({
         redirectTo: '/home'
       });
